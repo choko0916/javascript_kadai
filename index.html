@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="main.css">
+  <title>電卓</title>
+</head>
+<body>
+  <div id="calculator_container">
+    <div id="result">0</div>
+    <div id="buttons">
+      <div id="first-line">
+        <button onclick="clickbtn(this)">7</button>
+        <button onclick="clickbtn(this)">8</button>
+        <button onclick="clickbtn(this)">9</button>
+        <button id="plus" onclick="clickOperator(this)">+</button>
+      </div>
+      <div id="second-line">
+        <button onclick="clickbtn(this)">4</button>
+        <button onclick="clickbtn(this)">5</button>
+        <button onclick="clickbtn(this)">6</button>
+        <button id="minus" onclick="clickOperator(this)">-</button>
+      </div>
+      <div id="third-line">
+        <button onclick="clickbtn(this)">1</button>
+        <button onclick="clickbtn(this)">2</button>
+        <button onclick="clickbtn(this)">3</button>
+        <button id="asterisk" onclick="clickOperator(this)">*</button>
+      </div>
+      <div id="fourth-line">
+        <button onclick="clickbtn(this)">0</button>
+        <button onclick="clickbtn(this)">00</button>
+        <button id="point" onclick="clickPoint(this)">.</button>
+        <button id="slash" onclick="clickOperator(this)">/</button>
+      </div>
+      <div id="fifth-line">
+        <button onclick="clickbtn(this)" id="AC">AC</button>
+        <button id="equal" onclick="clickbtn(this)">=</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="main.js"></script>
+</body>
+  
+</html>
